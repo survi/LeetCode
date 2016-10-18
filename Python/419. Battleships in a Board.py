@@ -18,6 +18,7 @@ class Solution(object):
         return self.n
 
     def checkEnd(self,i,j):
+        # check the end of the ship
         if self.board[i][j] == '.':
             if self.start:
                 self.n += 1
