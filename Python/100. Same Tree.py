@@ -19,4 +19,3 @@ class Solution(object):
             return False
         else:
             return True
-        
